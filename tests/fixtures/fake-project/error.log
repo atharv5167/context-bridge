@@ -1,0 +1,4 @@
+2025-01-18 TypeError: Cannot read property 'id' of undefined
+  at auth.js:42
+2025-01-18 ConnectionError: Redis timeout
+  at cache.js:15

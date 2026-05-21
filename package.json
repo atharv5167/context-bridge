@@ -1,0 +1,44 @@
+{
+  "name": "contextbridge",
+  "version": "1.0.0",
+  "description": "Extracts development context from AI coding agents and injects it into Git commit messages and PR descriptions for testing agents like CodeRabbit.",
+  "main": "bin/contextbridge.js",
+  "bin": {
+    "contextbridge": "./bin/contextbridge.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    ".env.example"
+  ],
+  "keywords": [
+    "contextbridge",
+    "git",
+    "commit",
+    "context",
+    "coderabbit",
+    "ai",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.97.0",
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.2",
+    "inquirer": "^8.2.6",
+    "openai": "^6.38.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
